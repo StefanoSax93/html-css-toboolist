@@ -54,3 +54,41 @@ main {
     color: lightgrey;
     background-color: white;
 }
+
+section {
+    padding-left: 70px;
+    margin-top: 25px;
+}
+
+.symbol {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #6DC4AF;
+    border-radius: 50%;
+    color: #6DC4AF;
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.box {
+    width: 75px;
+    height: 30px;
+    background-color: #45ABEA;
+    border-radius: 15px;
+    border: none;
+    vertical-align: middle;
+    color: white;
+    font-style: bold;
+}
+
+.block {
+    margin-top: 15px;
+}
+
+.cross {
+    border: 2px solid red;
+    color: red;
+}
