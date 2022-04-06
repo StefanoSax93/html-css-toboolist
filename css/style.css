@@ -16,12 +16,13 @@ header {
 }
 
 header img {
-    vertical-align: -15px;
+    vertical-align: middle;
 }
 
 header h1 {
     display: inline-block;
     font-size: 40px;
+    vertical-align: middle;
 }
 
 main {
@@ -60,6 +61,11 @@ section {
     margin-top: 25px;
 }
 
+.arrow { 
+    display: inline-block;
+    width: 40px;
+}
+
 .symbol {
     display: inline-block;
     height: 25px;
@@ -69,7 +75,7 @@ section {
     color: #6DC4AF;
     font-size: 15px;
     vertical-align: middle;
-    padding-left: 5px;
+    text-align: center;
     margin-right: 10px;
 }
 
